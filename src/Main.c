@@ -45,6 +45,8 @@ int main(void)
 		password[times] = characters[rand() % 95];
 	}
 
+	password[number] = '\0';
+
 	printf("Generated password: %s\n", password);
 
 	return 0;
